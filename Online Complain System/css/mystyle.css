@@ -1,0 +1,78 @@
+#outer
+{
+background-image:url('../images/bg1.jpeg');
+}
+
+.top_bar
+{background-color:#F26522; padding:5px 0px;}
+
+.social_icons
+{margin-right:5px}
+
+.contact_info
+{color:#fff;font-size16px;}
+.my_menuu
+{margin-top:27px;}
+
+.my_logo
+{margin-top:5px;}
+
+.my_menu
+{margin-top:20px;}
+
+.my_menu .navbar-default{background:none; border:none;}
+
+.my_menu .navbar-nav .active a,.my_menu .navbar-nav .active a:hover{background-color:#F26522;color:#fff;}
+
+.my_menu .navbar-nav li a:hover{background:#F26522; color:#fff;}
+
+.imgslider
+{height:500px;}	
+
+.our_services
+{background:radial-gradient(circle, #009cde, #003087); padding:25px 0;}
+
+.our_services h2{color:#fff}
+
+.our_services .top_margin
+{margin-top:36px;}
+
+.footer{background:#333333;padding:20px 0; margin-top:20px;}
+
+.footer{color:#fff;}
+
+.footer p{color:#fff; margin-top:10px;margin-bottom:5px;}
+
+.footer ul{list-style:none; margin:0; padding:0;}
+
+.footer ul li a{color:#fff; font-size:15px;}
+
+@media (max-width:603px){
+	.our_services[class*="col-"]{margin-bottom:36px;}
+}
+@media (max-width:1200px){
+	.my_menu .pull-right{float:none !important;}
+}
+
+#mainlogin
+{height:400px;
+border:1px solid red;
+}
+#logindiv1
+{
+	height:300px;
+	width:500px;
+	margin-top:30px;
+	border:1px solid orange;
+}
+#mainreg
+{height:700px;
+border:1px solid red;
+}
+#regdiv1
+{
+	height:600px;
+	width:500px;
+	margin-top:30px;
+	border:1px solid orange;
+}

@@ -1,0 +1,180 @@
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-compatible" Content="IE-edge">
+<meta name="viewport" Content="width=device-width">
+<title>registration page</title>
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/mystyle.css"/>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+</head>
+<body>
+<form action="#" method="post">
+<!--header start-->
+<div class="container-fluid top_bar">
+<div class="container">
+<div class="row">
+<div class="col-sm-3">
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook" class="social_icons"><i class="fa fa-facebook" style="font-size:17px; color:green;"></i></a>
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Twiter"  class="social_icons"><i class="fa fa-twitter" style="font-size:17px; color:#fff;"></i></a>
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Youtube"  class="social_icons"><i class="fa fa-youtube-play" style="font-size:17px; color:#fff;"></i></a>
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+"  class="social_icons"><i class="fa fa-google-plus" style="font-size:17px; color:#fff;"></i></a>
+</div>
+<div class="col-sm-9 text-right contact_info">
+<span class="glyphicon glyphicon-envelope"></span> globecomplainconnectsystem@gmail.com
+<span class="glyphicon glyphicon-earphone"></span> +91-9898989898
+</div>
+</div> <!-- end of row-->
+</div><!--end of container-->
+</div><!--end of header-->
+<!--header end-->
+
+<!-- logo and navigation-->
+<div class="container">
+<div class="row">
+<div class="col-sm-5 my_logo">
+<img src="images/logo.png" alt=""/><span style="color:#F26522; font-size:22px;">Globle Complain Connect System</span>
+</div><!--end of col5-->
+<div class="col-sm-7 my_menu">
+
+<nav class="navbar navbar-default">
+
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div> <!--end of navbar hearder-->
+
+<div class="collapse navbar-collapse" id="mynavbar">
+<ul class="nav navbar-nav pull-right">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="">Status</a></li>
+	<li class="active"><a href="registration.html">Registration</a></li>
+	<li><a href="login.html">Login</a></li>
+	<li><a href="">Online Complain</a></li>
+	<li><a href="">Discuss</a></li>
+	<li><a href="">Contact Us</a></li>
+</ul>
+</nav>
+</div><!-- end of col7--> 
+</div><!-- end of row-->
+</div><!--end of container-->
+<!-- end of logo and navigation-->
+<!--end of header-->
+
+<!--Start Registration Page-->
+<div id="mainreg">
+                     
+                        <center>
+                             <div id="regdiv1">
+                                    <h1 style="color:blue; text-align: center;">User Registration</h1><br>
+                                <table align="center" height="500px"  width="400px" >
+                                    <tr>
+                                        <td>User Name</td>
+                                        <td><input type="text" name="user_name" required="true" placeholder="User Name"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gender</td>
+                                        <td><input type="radio" value="male" name="gender"required="true"/>Male &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="radio" value="female" name="gender"required="true"/>Female</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Address</td>
+                                        <td><textarea name="address" placeholder="enter address"required="true"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Contact No.</td>
+                                        <td><input type="number" name="contactno" placeholder="Mobile No"required="true"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email Address</td>
+                                        <td><input type="email" name="emailaddress" placeholder="Enter email address"required="true"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Occupation</td>
+                                        <td><input type="text" name="occupation" placeholder="Enter Occupation"required="true"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nationality</td>
+                                        <td><input type="text" name="nationality" placeholder="Enter Nationality"required="true"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>User Name</td>
+                                        <td><input type="text" name="username" placeholder="Enter user name"required="true"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Captcha Code</td> 
+                                        <td>
+                                            
+                                            <h2 style="background-color: yellow; width: 100px;"><strike><%=capcode%></strike></h2>
+                                            <input type="hidden" name="capcode" value="<%=capcode%>"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Enter Captcha Code</td>
+                                        <td><input type="text" name="captchacode" placeholder="here enter captcha code" style="height:40px;width:120px;"/></td>
+                                    </tr>
+                                    <tr>
+                                <td>&nbsp;</td>
+                                <td><input type="submit" style="background-color: blue; border: 1px solid blue;font-size: 16px; color: white;height: 25px; width:80px; " value="Submit"/>&nbsp;&nbsp;&nbsp;&nbsp
+								<input type="Reset" style="background-color: blue; border: 1px solid blue;font-size: 16px; color: white;height: 25px; width:80px; " value="reset"/></td>
+                                </td>
+                                </table>
+                           </div>
+                        </center>
+                    </div>
+
+
+<!--End 0f registration Page-->
+
+
+
+
+<!--footer-->
+<div class="container-fluid footer">
+<div class="container">
+
+<div class="col-sm-4">
+<img src="images/logo.png" alt="" class="img-responsive"/>
+
+<p>It provides a common platform to share the common people experiences, informations and harrashments all over the world and people can discuss on any topic created by only registered user.
+ Moreover, he/she can give the advice on any topic or report.</p>
+ 
+ <p><a href="#" class="btn btn-danger">Read more..</a></p>
+ 
+ </div> <!--end of col1-->
+ 
+ <div class="col-sm-4">
+ <h3>Quick links</h3>
+ 
+ <ul>
+	<li><a href="">&raquo;Home</a></li>
+	<li><a href="">&raquo;Status</a></li>
+	<li><a href="registration.html">&raquo;Registration</a></li>
+	<li><a href="login.html">&raquo;Login</a></li>
+	<li><a href="">&raquo;Your Area</a></li>
+	<li><a href="">&raquo;Discuss</a></li>
+	<li><a href="">&raquo;Contact Us</a></li>
+</ul>
+ </div> <!--end of col2-->
+ 
+  <div class="col-sm-4">
+ <h3>Contact Details</h3>
+ <p><strong>Address:</strong>Akbarpur City, Uttar Pradesh(India)</p>
+ <p><strong>Email:</strong>www.globecomplainconnectsystem@gmail.com</p>
+ <p><strong>Phone No.:</strong>+91- 9898989898</p>
+ </div> <!--end of col2-->
+ 
+<!--end footer-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+</form>
+</body>
+</html>
